@@ -8,7 +8,7 @@ Go implementation of the [MediaDevices](https://developer.mozilla.org/en-US/docs
 
 | Interface  | Linux | Mac | Windows |
 | :--------: | :---: | :-: | :-----: |
-|   Camera   |  ✔️   | ✖️  |   ✔️    |
+|   Camera   |  ✔️   | ✔️  |   ✔️    |
 | Microphone |  ✔️   | ✖️  |   ✔️    |
 |   Screen   |  ✔️   | ✖️  |   ✖️    |
 
@@ -17,7 +17,7 @@ Go implementation of the [MediaDevices](https://developer.mozilla.org/en-US/docs
 |   OS    |                           Library/Interface                             |
 | :-----: | :---------------------------------------------------------------------: |
 |  Linux  |        [Video4Linux](https://en.wikipedia.org/wiki/Video4Linux)         |
-|   Mac   |                                  N/A                                    |
+|   Mac   |       [AVFoundation](https://developer.apple.com/av-foundation/)        |
 | Windows | [DirectShow](https://docs.microsoft.com/en-us/windows/win32/directshow) |
 
 |                     Pixel Format                      | Linux | Mac | Windows |
